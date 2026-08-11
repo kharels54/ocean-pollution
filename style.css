@@ -1,32 +1,36 @@
 
 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /* Add a black background color to the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #b87171;
+  background-color: #db7f7f;
   
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
-  color: rgb(223, 12, 12);
+  color: rgb(214, 154, 154);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ffffff;
-  color: rgb(255, 48, 48);
+  background-color: #ff0000;
+  color: rgb(65, 5, 5);
 }
 
 /* Style the "active" element to highlight the current page */
 .topnav a.active {
-  background-color: #296ea7;
+  background-color: #000508;
   color: white;
 }
 
@@ -48,15 +52,15 @@
     text-align: left;
     width: 100%;
     margin-top: 10px;
-    padding: 14px;
+    padding: 20px;
   }
   .topnav input[type=text] {
-    border: 1px solid #ccc;
+    border: 1px solid #d61010;
   }
 }
 .hero-image{
     background-image: url("image_af513e5e.png");
-    height: 200px;
+    height: 100px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
