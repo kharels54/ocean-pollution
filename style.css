@@ -1,4 +1,6 @@
-
+Html{
+  background-color:bisque
+}
 main{
   margin:20px;
 }
@@ -14,19 +16,43 @@ h1{
   overflow: hidden;
 }
 
-.navabr a{
-  color:rgb(51, 51, 51);
+.navbar a{
+  color:rgb(255, 255, 255);
   text-decoration:none;
   padding:15px;
   display:block;
   text-align:center;
 
 }
-.navabr a:hover{
+.navbar a:hover{
   background-color:hsl(0, 0%, 10%);
 }
 .navbar li{
   float:left;
 }
 
+.two-colum{
+ width: 1900px;
+ height: auto;
+}
 
+.The-main-causes{
+   display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+    margin-right:60px;
+    
+}
+.info{
+  position:left;
+  
+}
+
+
+
+
+  
+  
