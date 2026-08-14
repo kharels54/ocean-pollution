@@ -1,5 +1,6 @@
 Html{
-  background-color:bisque
+
+  background-color:#33DBC2;
 }
 main{
   margin:20px;
@@ -36,23 +37,39 @@ h1{
  height: auto;
 }
 
-.The-main-causes{
-   display:grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 50px;
-    width:80%;
-    margin:auto;
-    margin-top:30px;
-    margin-right:60px;
-    
-}
-.info{
+
+
+.The-main-causes h1{
   position:left;
+  font-size: 2.5rem;
+  color: #00695c;
+ 
+}
+
+.The-main-causes p {
+  position: left;
+  font-style: italic;
+
+}
+
+.The-main-causes img{
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 50px;    width:80%;
+  margin:uto;
+  margin-top: 30px;
+  max-width: 500px;
+  height:auto;
+  float:left;
+   
+}
+
+The-main-causes h2{
+  position:left;
+  font-size: 2.5rem;
+  color: #00695c;
   
 }
-
-
-
 
   
   
