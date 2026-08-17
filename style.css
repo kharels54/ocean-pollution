@@ -32,44 +32,67 @@ h1{
   float:left;
 }
 
+.footer-bar{
+  background-color:rgb(17, 34, 34);
+  color:#ffffff;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+  font-size:1rem;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+  
+
+.footer-bar a {
+  color:azure;
+  text-decoration: none;
+  font-weight:bold;
+}
+.footer-bar a:hover{
+  text-decoration: underline;
+}
 .two-colum{
- width: 1900px;
+ width: 1200px;
  height: auto;
+ margin-left: 30px;
 }
 
 
 
-.The-main-causes h1{
-  position:left;
-  font-size: 2.5rem;
-  color: #00695c;
- 
-}
 
+.The-main-causes{
+  padding:40px 0;
+  max-width:900px;
+  margin:0 auto;
+}
+.The-main-causes h2{
+  font-size:2rem;
+  margin-bottom:20px;
+  margin-left:2px;
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.6);
+
+}
 .The-main-causes p {
-  position: left;
-  font-style: italic;
-
+  font-style:italic;
+  font-size: 1rem;
+  margin-top: 10px;
+  padding: 30px;
+  border-radius: 5px;
 }
 
 .The-main-causes img{
-  display:grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 50px;    width:80%;
-  margin:uto;
-  margin-top: 30px;
-  max-width: 500px;
-  height:auto;
-  float:left;
-   
-}
+  width: 100%;
+  max-width:400px;
+  height: auto;
+  display: block;
+  margin:10px auto;
+  border-radius:5px;
 
-The-main-causes h2{
-  position:left;
-  font-size: 2.5rem;
-  color: #00695c;
   
 }
 
-  
+
+
+
+
   
